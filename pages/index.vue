@@ -36,7 +36,7 @@ export default {
     }
   },
   mounted() {
-    axios.get('http://api.baccoexperiences.com/api/publics/experiences')
+    axios.get('https://api.baccoexperiences.com/api/publics/experiences')
     .then(response => (this.data = response))
   }
 }
